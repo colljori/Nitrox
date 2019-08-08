@@ -15,7 +15,7 @@ namespace NitroxModel.Helper
 
                 if (fileInfo.Length > 209000)
                 {
-                    return true;
+                    return false;
                 }
             }
 
@@ -24,7 +24,7 @@ namespace NitroxModel.Helper
 
             if (iniFiles.Length > 0)
             {
-                return true;
+                return false;
             }
 
             return false;
